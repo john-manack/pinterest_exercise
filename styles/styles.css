@@ -5,3 +5,13 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.flex--image {
+    width: 320px;
+}
